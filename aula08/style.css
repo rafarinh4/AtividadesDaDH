@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap');
+
+.titulo, .fontezinha{
+    color: rgb(212, 63, 205);
+    font-family: 'Kaisei Decol', serif;
+}
+.media-picture{
+    height: 300px;
+    background-image: url('https://img.ibxk.com.br/2019/11/12/12160400669238.jpg?w=1120&h=420&mode=crop&scale=both');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-score{
+    padding: 6px;
+    background-color: #ffee00;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 10px;
+
+}
+p {
+    text-align: justify;
+}
