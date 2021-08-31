@@ -1,0 +1,10 @@
+.box{
+    background-image: url('https://static-cse.canva.com/blob/184311/Fundo-de-Arco-%C3%8Dris-para-Zoom-1.png');
+    width: 1280px;
+    height: 720px;
+    box-sizing: border-box;
+    border: 7px dashed #E4D8DC;
+    border-radius: 30px;
+    text-align: center;
+    padding: 29px 0;
+}
