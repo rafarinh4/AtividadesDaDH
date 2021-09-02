@@ -1,0 +1,55 @@
+/*calc(50% - metade do elemento / 2) */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+.tamanho_grande{
+    width: 200px;
+    height: 200px;
+}
+.tamanho_pequeno{
+    width: 100px;
+    height: 100px;
+}
+.texto{
+    text-align: center;
+    padding-top: 40%;
+    color: white;
+}
+.caixa_1{
+    background-color: #d2691e;
+    position: absolute;
+}
+.caixa_1_2{
+    background-color: #774709;
+    position: absolute;
+    left: calc(50% - 100px / 2);
+    top: calc(50% - 100px / 2);
+}
+.caixa_2{
+    background-color: #7fff00;
+    position: absolute;
+    right: 0;
+}
+.caixa_2_2{
+    background-color: #254900;
+    position: absolute;
+    left: calc(50% - 100px / 2);
+    top: calc(50% - 100px / 2);
+}
+.caixa_3{
+    background-color: #6495ed;
+    left: calc(50% - 200px / 2);
+    bottom: 0;
+    position: fixed;
+}
+.caixa_3_3{
+    background-color: #0824c4;
+    position: absolute;
+    left: calc(50% - 100px / 2);
+    top: calc(50% - 100px / 2);
+}
