@@ -11,43 +11,64 @@
     <form class="form">
       <img src="logo.png">
       <h1>Atividadezinha</h1>
-      <div>
-        <label for="name">Nome</label>
-        <input
-          type="text"
-          id="name"
-          placeholder="Insira seu nome aqui"
-          class="borda">
-      </div>
-      <div>
-        <label for="email">E-mail</label>
-        <input
-          type="text"
-          id="email"
-          placeholder="Insira seu e-mail aqui"
-          class="borda">
-      </div>
-      <div>
-        <label for="texto">Observação</label>
-        <textarea
-          id="texto"
-          placeholder="Escreva aqui seu comentário de dúvida"
-          class="textarea">
-        </textarea>
-      </div>
-      <div>
-        <label for="selecao">Escolha sua comida favorita</label>
-        <select id="selecao" class="borda option">
-          <option value="" selected>Arroz</option>
-          <option value="">Batata</option>
-          <option value="">Macarrão</option>
-          <option value="">Carne</option>
-        </select>
-      </div>
-      <div class="espaco">
-        <button type="reset" class="button1">Cancelar</button>
-        <button type="submit" class="button2">Entrar</button>
-      </div>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Insira seu nome aqui" class="borda">
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Insira seu e-mail aqui" class="borda">
+          </div>
+          <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" nome="nascimento" id="date" class="borda">
+          </div>
+          <div>
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Insira sua senha aqui" class="borda">
+          </div>
+          <div class="row">
+            <input type="radio" name="person" id="juridico">
+            <label for="juridico">Pessoa Juridica</label>
+            <input type="radio" name="person" id="fisica">
+            <label for="fisica">Pessoa Física</label>
+          </div>
+          <div class="row">
+            <input type="checkbox" id="tue" name="tue">
+            <label for="tue">Você é?</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Outros Dados</legend>
+          <div>
+            <label for="texto">Observação</label>
+            <textarea id="texto" placeholder="Escreva aqui seu comentário de dúvida" class="textarea">
+            </textarea>
+          </div>
+          <div>
+            <label for="comida">Escolha sua comida favorita</label>
+              <select id="comida" name="comida" class="borda option">
+                <optgroup label="Saudáveis">
+                  <option value="">Arroz</option>
+                  <option value="">Batata</option>
+                  <option value="">Macarrão</option>
+                  <option value="">Carne</option>
+                </optgroup>
+                <optgroup label="Gordices">
+                  <option value="">Bolacha</option>
+                  <option value="">Salgadinho</option>
+                  <option value="">Coxinha</option>
+                  <option value="">Pizza</option>
+                  </optgroup>
+              </select>
+          </div>
+      </fieldset>
+        <div class="espaco">
+          <button type="reset" class="button1">Cancelar</button>
+          <button type="submit" class="button2">Entrar</button>
+        </div>
     </form>
   </body>
 </html>
