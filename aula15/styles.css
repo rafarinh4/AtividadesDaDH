@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    border: 2px dashed;
+}
+
+.block{
+    display: block;
+}
+
+p::first-letter{
+    color: orange;
+    font-size: 200%;
+}
+
+input:hover{
+    background-color: greenyellow;
+}
+
+input:disabled{
+    background-color: gray;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+input:checked{
+    transform: scale(3);
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    margin: 5px 70px;
+    justify-content: space-between;
+}
+
+ul li:not(.teste){ font-style: italic; }
+
+li:nth-child(1n+2){
+    color: red;
+}
+
+button:enabled{
+    width: 100px;
+    height: 30px;
+}
+
+p:read-only{
+    background-color: darkcyan;
+    width: 80%;
+    margin-left: 50px;
+}
+p:read-write{
+    background-color: darkkhaki;
+    width: 80%;
+    margin-left: 50px;
+}
