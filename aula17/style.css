@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+div img{
+    width: 290px;
+    height: 180px;
+}
+.big-box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;  /* Eixo horizontal */
+}
+.small-box h3{
+    padding: 5px 0;
+}
+.small-box p{
+    font-size: 13px;
+
+}
