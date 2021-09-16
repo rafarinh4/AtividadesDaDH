@@ -1,0 +1,51 @@
+/* Animar uma imagem de bola indo da esquerda para a direita com @keyframe, sendo que no começo da transição ela está invisível, e vai aparecendo conforme a animação acontece (animação exemplo está no slide do PG (fantasma))
+Animar um ícone de sua preferência utilizando transform, é necessário fazer essa animação de uma das formas: utilizando scale() e skew() ou rotate() e translate()
+Animar um botão com transition, fazendo com que o background-color dele mude de cor com uma transição suave. */
+@keyframes invisible{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        transform: translateX(200px); opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+div{
+    justify-content: space-between;
+    display:flex;
+    margin:100px 58px;
+    text-align: center;
+}
+label{
+    padding: 0 25px;
+}
+div .bola{
+    height: 100px;
+    height: 100px;
+    transition: 2s;
+    animation: invisible 4s infinite;
+}
+div .lapis{
+    height: 70px;
+    transition: 3s ease-in-out;
+}
+div .lapis:hover{
+    transform: rotate(2000deg) translate(80px);
+}
+
+div button{
+    border: none;
+    transition:2s ease-in-out;
+    padding: 20px 35px;
+    border-radius: 70px;
+}
+div button:hover{
+    background-color: #00ff95;
+    padding: 60px;
+}
