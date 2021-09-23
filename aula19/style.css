@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://soemga.org.br/arquivos/beneficios/1705144324F01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+.texto1{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding: 0 12px;
+    color: #000000;
+}
+.texto2{
+    font-family: 'Quicksand', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+.frame{
+    width:70%;
+    height:500px;
+}
+h1{
+    color:#0a8826;
+    padding: 15px 0;
+}
+h2{
+    padding: 10px 0;
+    color: #18019cfd;
+}
+iframe{
+    display: flex;
+    margin: 0 auto;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+@media (max-width: 1280px) {
+    body{
+        width: 100%;
+    }
+    .frame{
+        width:70%;
+        height:400px;
+    }
+    .botoes{
+        gap: 130px;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .frame{
+        width: 70%;
+        height: 300px;
+    }
+    .botoes{
+        gap: 80px;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+    .frame{
+        width: 70%;
+        height: 180px;
+    }
+    .botoes{
+        gap: 30px;
+    }
+}
