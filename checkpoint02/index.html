@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gradient">
+    <form>
+        <fieldset>
+            <legend>Seus dados</legend>
+                <label for="name">Nome completo:</label>
+                    <input type="text" name="nome" id="name">
+                <label for="email">E-mail:</label>
+                    <input type="email" name="e-mail" id="email">
+                <label for="telefone">Telefone:</label>
+                    <input type="number" name="celular" id="telefone" placeholder="DDD + Número">
+                <label for="dataN">Data de Nascimento</label>
+                    <input type="date" name="data" id="dataN">
+                <label>Maior de 18 anos?</label>
+                <div>
+                    <input type="radio" id="positive" name="options" value="sim">
+                    <label for="positive">Sim</label>
+                    <input type="radio" id="negative" name="options" value="nao">
+                    <label for="negative">Não</label>
+                </div>
+                <label for="lugares">Ponto de interesse na cidade:</label>
+                <select name="lugares" id="lugares">
+                    <optgroup label="Lugares">
+                        <option value="praca">Praça</option>
+                        <option value="campo">Campo</option>
+                        <option value="centro">Centro</option>
+                        <option value="praia">Praia</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+        <fieldset>
+            <legend>Opcional</legend>
+                <Label>Quais seus interesses na cidade?</Label>
+                <div>
+                    <input type="checkbox" id="turista" name="turista" value="Turista">
+                    <label for="turista">Turista</label>
+                    <input type="checkbox" id="Residente" name="Residente" value="Residente">
+                    <label for="Residente">Residente</label>
+                    <input type="checkbox" id="Estudante" name="Estudante" value="Estudante">
+                    <label for="Estudante">Estudante</label>
+                </div>
+        </fieldset>
+        <section class="buttons">
+            <button type="reset">Cancelar</button>
+            <button type="submit">Cadastrar</button>
+        </section>
+        
+
+
+    </form>
+</body>
+</html>

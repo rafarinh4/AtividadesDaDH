@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes cor {
+    0%{
+        background-position: 20% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #28FFBF, #BCFFB9, #F5FDB0, #F7E6AD);
+    animation: cor 4s ease-in infinite;
+}
+form{
+    display: flexbox;
+    width: 40vw;
+    text-align: center;
+}
+fieldset{
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+fieldset div label{
+    display: inline;
+    padding: 3px;
+}
+legend{
+    text-align: left;
+    margin-left: 7vw;
+    color: #ff71ff;
+}
+legend::first-letter{
+    font-size: 140%;
+}
+label{
+    display: block;
+}
+input{
+    border: 1px solid;
+    height: 20px;
+    border-radius: 3px;
+}
+input:hover{
+    transform: scale(1.1);
+}
