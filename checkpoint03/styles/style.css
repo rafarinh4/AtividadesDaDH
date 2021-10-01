@@ -21,7 +21,7 @@ header{
 footer{
     background-color: #000000;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 60px;
     width: 100%;
@@ -30,4 +30,9 @@ footer{
 }
 footer p{
     color: white;
+}
+.carrossel{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }

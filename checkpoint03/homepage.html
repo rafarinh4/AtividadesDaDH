@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Login
           </button>
     </header>
@@ -21,10 +21,31 @@
 
 
 
-  
+        <div id="carouselExampleControls" class="carousel slide carrossel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/vetores-gratis/fundo-abstrato-colorido_23-2148807053.jpg?size=626&ext=jpg" height="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://image.freepik.com/vetores-gratis/fundo-realista-de-luzes-de-neon_52683-60462.jpg" height="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://conteudos.xpi.com.br/wp-content/uploads/2020/10/fundo-geometrico-de-tecnologia_29971-339.jpg" height="300px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel">Seja bem vindo!</h5>
@@ -39,7 +60,7 @@
           <input type="password" name="senha" id="password">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Cadastrar</button>
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
         </div>
       </div>
     </div>
