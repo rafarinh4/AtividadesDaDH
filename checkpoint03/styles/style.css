@@ -88,7 +88,7 @@ footer p {
 }
 
 .parallax {
-  background-image: url(/media/1920x1080-Banner-19.jpg);
+  background-image: url(../media/1920x1080-Banner-19.jpg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
