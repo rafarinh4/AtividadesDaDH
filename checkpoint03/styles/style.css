@@ -100,3 +100,12 @@ footer p {
 .parallax h2 {
   padding: 20px;
 }
+
+.nav-item {
+  padding: 0 5px;
+  border-radius: 20px;
+}
+
+.nav-item:hover {
+  background-color: bisque;
+}
