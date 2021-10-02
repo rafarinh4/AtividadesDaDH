@@ -21,6 +21,20 @@ header {
   top: 0;
   z-index: 30;
 }
+.head{
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+.head li a{
+  text-decoration: none;
+}
+.barra{
+  padding-left: 3px;
+  padding-right: 3px;
+}
 .login {
   margin: 0 5px;
 }
@@ -39,13 +53,16 @@ header {
 .form label {
   display: block;
   padding: 3px;
+  font-style: italic;
 }
 .form input {
+  border: 1px solid;
+  border-radius: 10px;
   margin-bottom: 7px;
-  transition: 2s;
+  transition: 1.5s;
 }
 .form input:focus{
-  background-color: #80808041;
+  background-color: #80808059;
 }
 .modal-footer .register {
   border: #198754 1px solid;
