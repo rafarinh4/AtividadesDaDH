@@ -6,8 +6,40 @@
 html {
   scroll-behavior: smooth;
 }
-
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+.login{
+    margin: 0 5px;
+}
+.carrossel{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.carousel-item{
+    height: 50vh;
+}
+.form{
+    text-align: center;
+}
+.form label{
+    display: block;
+}
+.form input{
+    margin-bottom: 10px;
+}
+.modal-footer .register{
+    border: #198754 1px solid;
+    border-radius: 5px;
+    padding: 10px 18px;
+}
+.modal-footer .register:hover{
+    background-color: #198754;
+}
 footer{
     background-color: #000000;
     display: flex;
@@ -20,9 +52,4 @@ footer{
 }
 footer p{
     color: white;
-}
-.carrossel{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
 }
