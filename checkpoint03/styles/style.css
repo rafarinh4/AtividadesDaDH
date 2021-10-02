@@ -21,17 +21,17 @@ header {
   top: 0;
   z-index: 30;
 }
-.head{
+.head {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
   background-color: #f8f9fa;
   border-radius: 4px;
 }
-.head li a{
+.head li a {
   text-decoration: none;
 }
-.barra{
+.barra {
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -61,13 +61,8 @@ header {
   margin-bottom: 7px;
   transition: 1.5s;
 }
-<<<<<<< HEAD
-.form input:focus{
-  background-color: #80808059;
-=======
 .form input:focus {
-  background-color: #80808041;
->>>>>>> 5d549a56ac1624b8762538c363185d855031ca57
+  background-color: #80808059;
 }
 .modal-footer .register {
   border: #198754 1px solid;
@@ -93,7 +88,7 @@ footer p {
 }
 
 .parallax {
-  background-image: url(../media/1920x1080-Banner-19.jpg);
+  background-image: url(/media/1920x1080-Banner-19.jpg);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
