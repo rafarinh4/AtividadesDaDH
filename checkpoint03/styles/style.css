@@ -1,55 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
-header{
-    position: sticky;
-    top: 0;
-    z-index: 30;
+
+body {
+  height: 10000px;
 }
-.login{
-    margin: 0 5px;
+
+main {
+  height: 100%;
 }
-.carrossel{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    z-index: 1;
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
 }
-.carousel-item{
-    height: 50vh;
+.login {
+  margin: 0 5px;
 }
-.form{
-    text-align: center;
+.carrossel {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 1;
 }
-.form label{
-    display: block;
+.carousel-item {
+  height: 50vh;
 }
-.form input{
-    margin-bottom: 10px;
+.form {
+  text-align: center;
 }
-.modal-footer .register{
-    border: #198754 1px solid;
-    border-radius: 5px;
-    padding: 10px 18px;
+.form label {
+  display: block;
 }
-.modal-footer .register:hover{
-    background-color: #198754;
+.form input {
+  margin-bottom: 10px;
 }
-footer{
-    background-color: #000000;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.modal-footer .register {
+  border: #198754 1px solid;
+  border-radius: 5px;
+  padding: 10px 18px;
 }
-footer p{
-    color: white;
+.modal-footer .register:hover {
+  background-color: #198754;
+}
+footer {
+  background-color: #000000;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: white;
+}
+
+.parallax {
+  background-image: url(http://www.weekendholdings.com/wp-content/uploads/2018/03/1920x1080-Banner-19.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
