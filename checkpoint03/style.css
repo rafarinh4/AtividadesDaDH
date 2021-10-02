@@ -44,7 +44,7 @@ header {
   z-index: 1;
 }
 .carousel-item {
-  height: 80vh;
+  height: 100vh;
 }
 .form {
   text-align: center;
