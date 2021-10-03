@@ -7,23 +7,40 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   height: 10000px;
 }
-
 main {
   height: 100%;
 }
-
 header {
   position: sticky;
   top: 0;
   z-index: 30;
 }
+.parallax {
+  background-image: url(../media/1920x1080-Banner-19.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.parallax h2 {
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 0 5px;
+  border-radius: 20px;
+}
+
+.nav-item:hover {
+  background-color: bisque;
+}
 .head {
   padding: 8px 15px;
-  margin-bottom: 20px;
   list-style: none;
   background-color: #f8f9fa;
   border-radius: 4px;
@@ -37,15 +54,6 @@ header {
 }
 .login {
   margin: 0 5px;
-}
-.carrossel {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  z-index: 1;
-}
-.carousel-item {
-  height: 50vh;
 }
 .form {
   text-align: center;
@@ -72,8 +80,45 @@ header {
 .modal-footer .register:hover {
   background-color: #198754;
 }
+.carrossel {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 1;
+}
+.carousel-item {
+  height: 30em;
+}
+
+.list{
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+}
+.content-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 12px;
+  max-width: 100%;
+}
+.card{
+  width: 340px;
+}
+.new-page{
+  border: #0d6efd 1px solid;
+  border-radius: 5px;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #0d6efd;
+}
+.new-page:hover{
+  background-color: #0d6efd;
+  color: #ffffff;
+}
 footer {
-  background-color: #000000;
+  background-color: #f8f9fa;
   display: flex;
   position: fixed;
   bottom: 0;
@@ -84,28 +129,5 @@ footer {
   z-index: 29;
 }
 footer p {
-  color: white;
-}
-
-.parallax {
-  background-image: url(../media/1920x1080-Banner-19.jpg);
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-
-.parallax h2 {
-  padding: 20px;
-}
-
-.nav-item {
-  padding: 0 5px;
-  border-radius: 20px;
-}
-
-.nav-item:hover {
-  background-color: bisque;
+  color: #000000;
 }
