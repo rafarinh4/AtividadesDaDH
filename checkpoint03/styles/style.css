@@ -41,6 +41,7 @@ header {
   background-color: bisque;
 }
 .head {
+  display: flex;
   padding: 8px 15px;
   list-style: none;
   background-color: #f8f9fa;
@@ -106,6 +107,9 @@ header {
 }
 .card {
   width: 340px;
+}
+.card img:hover {
+  transform: scale(1.03);
 }
 .new-page {
   border: #0d6efd 1px solid;
