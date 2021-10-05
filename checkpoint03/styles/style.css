@@ -110,6 +110,7 @@ header {
 }
 .card img:hover {
   transform: scale(1.03);
+  opacity: 0.8;
 }
 .new-page {
   border: #0d6efd 1px solid;
