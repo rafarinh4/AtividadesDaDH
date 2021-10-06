@@ -7,10 +7,6 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  height: 10000px;
-  min-width: 500px;
-}
 main {
   height: 100%;
 }
@@ -85,17 +81,14 @@ header {
 .carrossel {
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
   z-index: 1;
 }
-.carousel-item {
-  height: 30em;
-}
-
 .list {
   display: flex;
   width: 80%;
   margin: 10px auto;
+  padding-bottom: 60px;
 }
 .content-list {
   display: flex;
