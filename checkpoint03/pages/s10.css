@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+}
+
+.imagem-celular img{
+
+    width: 100vw;
+}
+
+#lidobootstrap{
+    list-style-type: none;
+    
+}
+
+.nav-corescura{
+    color: black;
+}
+
+
+/* -> o menu dropdown para navegar nas outras paginas somem abaixo desse 975px */
+
+.descricoes-galaxy-z-fold{
+    margin-left: 20px;
+    align-content: center;
+}
+
+.descricoes-galaxy-z-fold p{
+    width: 70%;
+    padding-left: 100px;
+}
+
+
+
+.botao-mais-largo{
+
+    width: 500px;
+    margin-left: 100px;
+
+}
+
+/* Incio -> style do texto dentro de uma imagem */
+.container {
+    position: relative;
+    
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 45px;
+    left: 50%;
+    top: 200px;
+    color: white;
+  }
+
+  @media (max-width:1000px) {
+
+    #texto {     
+        top: 150px;
+        left: 20px;
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width:450px){
+    #texto{
+        font-size: 15px;
+    }
+}
+/* Fim -> style do texto dentro de uma imagem */
+@media (min-width: 1800px){
+    #texto{
+        
+        left: 50%;
+        top: 300px;
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 700px){
+    .descricoes-galaxy-z-fold{
+        display: inline;
+        
+    } 
+    .descricoes-galaxy-z-fold p{
+        padding: 0;
+        width: auto;
+    }
+}
