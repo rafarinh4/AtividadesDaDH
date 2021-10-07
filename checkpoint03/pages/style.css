@@ -1,92 +1,118 @@
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+.nav-item {
+  padding: 0 5px;
+  border-radius: 20px;
 }
 
-.imagem-celular img{
-
-    width: 100vw;
+.nav-item:hover {
+  background-color: bisque;
+}
+.form {
+  text-align: center;
+}
+.form label {
+  display: block;
+  padding: 3px;
+  font-style: italic;
+}
+.form input {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  transition: 1.5s;
+}
+.form input:focus {
+  background-color: #80808059;
+}
+.modal-footer .register {
+  border: #198754 1px solid;
+  border-radius: 5px;
+  padding: 10px 18px;
+}
+.modal-footer .register:hover {
+  background-color: #198754;
 }
 
-#lidobootstrap{
-    list-style-type: none;
-    
+.imagem-celular img {
+  width: 100vw;
 }
 
-.nav-corescura{
-    color: black;
+#lidobootstrap {
+  list-style-type: none;
 }
 
+.nav-corescura {
+  color: black;
+}
 
 /* -> o menu dropdown para navegar nas outras paginas somem abaixo desse 975px */
 
-.descricoes-galaxy-z-fold{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 200px;
-    align-content: center;
-    margin: 20px 0 20px 10px;
+.descricoes-galaxy-z-fold {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 200px;
+  align-content: center;
+  margin: 20px 0 20px 10px;
 }
 
-.descricoes-galaxy-z-fold p{
-    width: 70%;
-    padding-left: 100px;
+.descricoes-galaxy-z-fold p {
+  width: 70%;
+  padding-left: 100px;
 }
 
-
-
-.botao-mais-largo{
-
-    width: 500px;
-    margin-left: 100px;
-
+.botao-mais-largo {
+  width: 500px;
+  margin-left: 100px;
 }
 
 /* Incio -> style do texto dentro de uma imagem */
 .container {
-    position: relative;
-    
-  }
-  
-  #texto {
-    position: absolute;
-    font-size: 32px;
-    left: 5%;
-    top: 200px;
-    color: black;
-  }
-
-  @media (max-width:1000px) {
-
-    #texto {     
-        top: 0;
-        left: 0;
-        font-size: 25px;
-    }
-
+  position: relative;
 }
 
-@media (max-width:450px){
-    #texto{
-        font-size: 15px;
-    }
+#texto {
+  position: absolute;
+  font-size: 32px;
+  left: 5%;
+  top: 200px;
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  #texto {
+    top: 0;
+    left: 0;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  #texto {
+    font-size: 15px;
+  }
 }
 /* Fim -> style do texto dentro de uma imagem */
-@media (min-width: 1800px){
-    #texto{
-        
-        left: -150px;
-        top: 300px;
-        font-size: 55px;
-    }
+@media (min-width: 1800px) {
+  #texto {
+    left: -150px;
+    top: 300px;
+    font-size: 55px;
+  }
 }
 
-@media (max-width: 700px){
-    .descricoes-galaxy-z-fold{
-        display: inline;
-        
-    } 
-    .descricoes-galaxy-z-fold p{
-        padding: 0;
-        width: auto;
-    }
+@media (max-width: 700px) {
+  .descricoes-galaxy-z-fold {
+    display: inline;
+  }
+  .descricoes-galaxy-z-fold p {
+    padding: 0;
+    width: auto;
+  }
 }
